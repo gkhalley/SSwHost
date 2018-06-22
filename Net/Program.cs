@@ -24,7 +24,6 @@ namespace Blinky
                 Thread.Sleep(250); // sleep for 250ms
                 led.Write(false); // turn off the LED
                 Thread.Sleep(250); // sleep for 250ms
-
             }
 
             Debug.Print("App finished.");
@@ -47,7 +46,7 @@ namespace Blinky
 
             if (goodToGo)
             {
-                MakeWebRequest("http://google.com");
+                MakeWebRequest("https://google.com");
             }
 
             this.IsRunning = false;
@@ -71,7 +70,6 @@ namespace Blinky
             // loop through each network interface
             foreach (var net in _interfaces)
             {
-
                 // debug out
                 ListNetworkInfo(net);
 
@@ -148,7 +146,7 @@ namespace Blinky
                     // try to renew the DHCP lease and get a new IP Address
                     //net.RenewDhcpLease ();
                     //while (net.IPAddress == "0.0.0.0") {
-                    //	Thread.Sleep (10);
+                    //    Thread.Sleep (10);
                     //}
 
                 }
@@ -181,7 +179,6 @@ namespace Blinky
                     case (NetworkInterfaceType.Unknown):
                         Debug.Print("Found Unknown Interface");
                         break;
-
                 }
             }
         }
@@ -207,7 +204,7 @@ namespace Blinky
         {
             string hexString = string.Empty;
 
-            // Create a character array for hexidecimal conversion.
+            // Create a character array for hexadecimal conversion.
             const string hexChars = "0123456789ABCDEF";
 
             // Loop through the bytes.
@@ -225,6 +222,5 @@ namespace Blinky
 
             return hexString;
         }
-
     }
 }
