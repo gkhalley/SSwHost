@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Net
+namespace SSwHost
 {
     
     internal partial class Resources
@@ -20,7 +20,7 @@ namespace Net
             {
                 if ((Resources.manager == null))
                 {
-                    Resources.manager = new System.Resources.ResourceManager("Net.Resources", typeof(Resources).Assembly);
+                    Resources.manager = new System.Resources.ResourceManager("SSwHost.Resources", typeof(Resources).Assembly);
                 }
                 return Resources.manager;
             }

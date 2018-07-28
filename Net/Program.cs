@@ -1,7 +1,7 @@
 
 using System.Threading;
 
-namespace RgbLedHost
+namespace SSwHost
 {
     public class Program
     {

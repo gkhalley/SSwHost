@@ -1,7 +1,8 @@
 using Maple;
 using Microsoft.SPOT;
 
-namespace RgbLedHost
+namespace SSwHost
+
 {
     public class RequestHandler : RequestHandlerBase
     {

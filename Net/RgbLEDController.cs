@@ -2,7 +2,7 @@ using Netduino.Foundation.LEDs;
 using System;
 using System.Collections;
 
-namespace RgbLedHost
+namespace SSwHost
 {
     public class RgbLedController
     {

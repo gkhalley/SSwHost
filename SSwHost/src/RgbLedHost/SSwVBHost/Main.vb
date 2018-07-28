@@ -4,7 +4,7 @@ Imports SSwVBHost.IO
 
 Namespace SSwVBHost
     Public Module Main
-        Sub Main()
+        Sub New()
             Dim app As App = New App()
             app.Run()
             Thread.Sleep(Timeout.Infinite)

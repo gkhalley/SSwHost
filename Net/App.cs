@@ -5,7 +5,7 @@ using Netduino.Foundation.LEDs;
 using Netduino.Foundation.Network;
 using N = SecretLabs.NETMF.Hardware.Netduino;
 
-namespace RgbLedHost
+namespace SSwHost
 {
     public class App
     {
@@ -57,7 +57,7 @@ namespace RgbLedHost
 
             while (Initializer.CurrentNetworkInterface == null) { }
 
-            _server.Start("RgbLedHost", Initializer.CurrentNetworkInterface.IPAddress);
+            _server.Start("SSwHost", Initializer.CurrentNetworkInterface.IPAddress);
             _rgbController.NetworkConnected();
         }
     }
