@@ -55,6 +55,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.vb" />
+    <Compile Include="Infrastructure\Power.vb" />
+    <Compile Include="Infrastructure\PowerTable.vb" />
     <Compile Include="Logger.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

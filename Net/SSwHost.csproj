@@ -37,6 +37,8 @@
     <Compile Include="Hardware\CurrentController.cs" />
     <Compile Include="Hardware\IniFile.cs" />
     <Compile Include="Hack.cs" />
+    <Compile Include="Infrastructure\Power.cs" />
+    <Compile Include="Infrastructure\PowerTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="RequestHandler.cs" />
@@ -54,7 +56,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Maple, Version=0.0.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Maple.0.0.9\lib\netmf43\Maple.dll</HintPath>
+      <HintPath>..\packages\Maple.0.0.10\lib\netmf43\Maple.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SPOT.Graphics" />
@@ -65,8 +67,8 @@
     <Reference Include="Microsoft.SPOT.Native" />
     <Reference Include="Microsoft.SPOT.Net" />
     <Reference Include="Microsoft.SPOT.TinyCore" />
-    <Reference Include="Netduino.Foundation, Version=0.17.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Netduino.Foundation.0.17.672\lib\netmf43\Netduino.Foundation.dll</HintPath>
+    <Reference Include="Netduino.Foundation, Version=0.18.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Netduino.Foundation.0.18.680\lib\netmf43\Netduino.Foundation.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Netduino.Foundation.Network, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
